@@ -1,0 +1,33 @@
+/* shared styles */
+body{
+    margin-top: 50px;
+}
+
+/* header styels */
+header {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./images/Banner\ Image.png");
+
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-greeting {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.header-heading {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 75px;
+  font-weight: 900;
+}
