@@ -1,4 +1,30 @@
 /* shared styles */
+:root {
+  --dark-color: #191f1d;
+  --mid-dark: #555a57;
+  --light-color: #ece0c8;
+  --mid-light: #949993;
+  --shadow: #0005;
+  --linear-rainbow: linear-gradient(
+    to right,
+    #ede6bf,
+    #ecc947,
+    #cb5a31,
+    #6f5d79,
+    #4e779a
+  );
+  --circle-rainbow: radial-gradient(
+    circle at left top,
+    #ede6bf,
+    #ecc947,
+    #cb5a31,
+    #6f5d79,
+    #4e779a
+  );
+  --noise-texture: url(https://i.gyazo.com/a26366e538851a5c569ff648e99b7fd4.png);
+  --gif-texture: url(https://64.media.tumblr.com/da60c13b478dda09ab90c27e880983b8/tumblr_nd4pwdPKdc1tun3l0o1_1280.gifv);
+}
+
 body {
   margin-top: 50px;
 }
@@ -175,7 +201,7 @@ header {
 }
 
 .offer-img {
-  border-radius: 463px;
+  border-radius: 50%;
   border: 15px solid #f00;
   padding: 25px;
 }
@@ -195,6 +221,93 @@ header {
   padding-left: 50px;
 }
 
-.offer-year-img{
-    padding-left: 50px;
+.offer-year-img {
+  padding-left: 50px;
+}
+
+/* Holiday sale 50% styles*/
+.holiday-functional {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+#txt-holidays {
+  color: #f00;
+}
+.holiday-sale {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0;
+}
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 0 250px;
+}
+.holiday-article-container {
+  text-align: center;
+}
+
+/* portfolio section styles */
+.portfolio-container {
+  width: 1320px;
+  margin: auto;
+}
+
+.portfolio-gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+.portfolio-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  margin: 0;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.portfolio-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 65%;
+}
+
+.portfolio-img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 1320px;
+  margin: auto;
+}
+
+.portfolio-img {
+  position: relative;
+  overflow: hidden; /* Ensure the hover effect doesn't cause overflow */
+}
+
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* Optional: adds rounded corners to the images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow to the images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.portfolio-img img:hover {
+  transform: scale(1.05); /* Slightly enlarges the image */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhances the shadow on hover */
 }
