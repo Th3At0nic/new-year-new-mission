@@ -1,6 +1,9 @@
 /* shared styles */
-body{
-    margin-top: 50px;
+body {
+  margin-top: 50px;
+}
+main section {
+  margin-top: 100px;
 }
 
 /* header styels */
@@ -25,9 +28,83 @@ header {
   font-size: 32px;
   font-weight: 400;
 }
-.header-heading {
+.header-title {
   color: #fff;
   font-family: Merriweather;
   font-size: 75px;
   font-weight: 900;
+}
+
+/* main section styles */
+/* discount section */
+.discount-title {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.discount-ad {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.discount-category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.new-year-photo {
+  display: flex;
+  justify-content: center;
+}
+
+/* midnight party section */
+.midnight-party-container {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("./images/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  flex-shrink: 0;
+  margin: auto;
+  border-radius: 16px;
+}
+
+.midnight-party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 100px;
+  margin-bottom: 14px;
+}
+.midnight-party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  width: 60%;
+  margin-left: 100px;
+}
+.btn-join-party {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 100px;
+  background-color: #f00;
+  border-radius: 8px;
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
 }
