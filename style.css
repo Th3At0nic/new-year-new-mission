@@ -3,7 +3,19 @@ body {
   margin-top: 50px;
 }
 main section {
-  margin-top: 100px;
+  margin-top: 140px;
+}
+
+.btn-primary {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #f00;
+  border-radius: 8px;
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 /* header styels */
@@ -74,6 +86,9 @@ header {
   margin: auto;
   border-radius: 16px;
 }
+.midnight-party-container div {
+  padding-left: 100px;
+}
 
 .midnight-party-title {
   color: #fff;
@@ -84,7 +99,6 @@ header {
   letter-spacing: 7.04px;
   width: 50%;
   padding-top: 100px;
-  padding-left: 100px;
   margin-bottom: 14px;
 }
 .midnight-party-description {
@@ -92,19 +106,95 @@ header {
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
   width: 60%;
-  margin-left: 100px;
 }
-.btn-join-party {
-  color: #fff;
+
+/* address section styes*/
+.address-container {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 1320px;
+  height: 482px;
+  flex-shrink: 0;
+  margin: auto;
+  border-radius: 16px;
+}
+
+.text-red {
+  color: #f00;
+}
+
+/* new best offers coming soon styels */
+
+.offer-container {
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.offer-column {
+  text-align: left;
+  width: 33%;
+}
+
+.offer-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.offer-heading {
+  color: #070211;
+  margin: 0;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.offer-description {
+  color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
+  font-weight: 400;
+}
+
+.offer-img {
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 25px;
+}
+.offer-year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
   font-weight: 700;
-  margin-left: 100px;
-  background-color: #f00;
-  border-radius: 8px;
-  border: 0;
-  padding: 5px 10px;
-  cursor: pointer;
+  padding-left: 50px;
+}
+.offer-year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  padding-left: 50px;
+}
+
+.offer-year-img{
+    padding-left: 50px;
 }
